@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "camelcase": "^6.3.0"
+    "camelcase": "^6.3.0",
+    "express": "^4.17.3"
   }
 }
