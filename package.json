@@ -1,7 +1,7 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is my repository containing stuff from blok tech.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,5 +14,15 @@
   "dependencies": {
     "camelcase": "^6.3.0",
     "express": "^4.17.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romyjkk/bloktech.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/romyjkk/bloktech/issues"
+  },
+  "homepage": "https://github.com/romyjkk/bloktech#readme"
 }
