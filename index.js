@@ -1,9 +1,20 @@
+require('dotenv').config()
+
 const express = require('express')
 const app = express()
-
 const bodyParser = require('body-parser')
-
 const { engine } = require('express-handlebars')
+
+// database opzetten
+
+const mongoose = require('mongoose')
+const dbKey = process.env.MONGO_URI  
+
+mongoose.connect(dbKey,{useNewURLParser:true})
+.then(() => console.log('Database is connected!'))
+.catch(err=>console.log(err))
+
+app.use(express.urlencoded({extended:false}))
 
 // defining port
 
@@ -24,56 +35,19 @@ app.use(bodyParser.json())
 
 app.use(express.static('static'))
 
-
-
-app.get('/', function(req, res) {
+app.get('/', (req, res) => {
     res.render('home')
 })
 
-app.get('/about', function(req, res) {
-    res.render('about')
+app.get('/like', (req, res) => {
+    res.render('like')
 })
 
-// app.post('likeUser', function(req, res) {
-//     // req.body
-// })
+app.post('/likeUser', (req, res) => {
+    // req.body
+})
+
 
 app.listen(PORT, function() {
     console.log('App listening to port:', PORT)
 })
-
-// express()
-//     .use('/static', express.static('static'))
-
-//     .get('/', onhome)
-//     .get('/about', onabout)
-//     .get('/match', onmatch)
-
-//     .listen(3000)
-
-// function onhome(req, res) {
-//     res.send('<h1>Hello World!</h1>')
-// }
-
-// function onabout(req, res) {
-//     res.send('<h1>About me</h1>')
-// }
-
-// function onmatch(req, res) {
-//     res.send('<h1>Start swiping!</h1>')
-// }
-
-/* handlebars installation */
-
-// import express from 'express'
-// import { engine } from 'express-handlebars'
-
-// const app = express()
-
-
-
-// app.get('/', (req, res) => {
-//     res.render('home')
-// })
-
-// app.listen(3000)

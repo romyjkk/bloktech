@@ -74,3 +74,45 @@ app.listen(PORT, function() {
     console.log('App listening to port:', PORT)
 })
 
+
+code voor handlebars en body parser???
+
+const express = require('express')
+const app = express()
+
+const bodyParser = require('body-parser')
+
+const { engine } = require('express-handlebars')
+
+// defining port
+
+const PORT = 3000
+
+// setting up view engine
+
+app.engine('handlebars', engine())
+app.set('view engine', 'handlebars')
+app.set('views', './views')
+
+// setting up bodyparser -> ur able to see the data that's being sent from the client
+
+app.use(bodyParser.urlencoded({ extended: false}))
+app.use(bodyParser.json())
+
+//define our static folder
+
+app.use(express.static('static'))
+
+
+
+app.get('/', function(req, res) {
+    res.render('home')
+})
+
+app.get('/about', function(req, res) {
+    res.render('about')
+})
+
+app.listen(PORT, function() {
+    console.log('App listening to port:', PORT)
+})
