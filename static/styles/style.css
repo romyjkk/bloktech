@@ -1,5 +1,17 @@
 body {
     background-color: black;
 
-    color: white;
+    color: salmon;
 }
+
+h1 {
+    margin: 1em;
+}
+
+nav button {
+    padding: 2em;
+    margin: 2em;
+
+    background-color: salmon;
+}
+
