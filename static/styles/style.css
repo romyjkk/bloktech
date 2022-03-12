@@ -118,7 +118,8 @@ main section ul:nth-of-type(3) {
     justify-content: space-evenly;
 }
 
-main section ul:nth-of-type(3) button {
+main section ul:nth-of-type(3) input {
+    font-family: 'montserrat', 'sans-serif';
     width: 6em;
     height: 6em;
     background-color: #E0E0E0;
