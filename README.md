@@ -44,6 +44,7 @@ in je command line te runnen.
 ### ⌨️ Run the application ⌨️
 
 ## 🗄 Database 🗄
+In dit project heb ik gebruik gemaakt van de MongoDB database.
 
 ## 📄 License 📄
 Voor dit project heb ik de [MIT license](https://github.com/romyjkk/bloktech/blob/main/LICENSE.txt) gebruikt.
