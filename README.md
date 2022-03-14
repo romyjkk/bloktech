@@ -17,8 +17,14 @@ Table of contents
 ## 🎀 Mijn feature 🎀
 
 ### 💡 Concept 💡
+Aangezien ik fashion een leuk iets vind om mij mee bezig te houden, leek het mij leuk om mijn feature hierop te baseren.
+Ik heb er uiteindelijk voor gekozen om een feature te bouwen uit een app voor tweedehands kleding waar je verschillende kledingstukken kunt bekijken en ze wel of niet te liken.
 
 ### 🖥 Wat heb ik gebruikt 🖥
+- HTML, CSS en JavaScript
+- node.js/NPM
+- Express en Express-Handlebars
+- MongoDB en Mongoose
 
 
 ## 💻 How to install 💻
