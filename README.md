@@ -3,8 +3,8 @@ Welkom bij mijn Bloktech repository. Hier kun je alle code die ik heb gebruikt v
 
 Table of contents
 - [Mijn feature](https://github.com/romyjkk/bloktech/blob/main/README.md#mijn-feature)
-   - [Concept]()
-   - [Wat heb ik gebruikt]()
+   - [Concept](https://github.com/romyjkk/bloktech/blob/main/README.md#-concept-)
+   - [Wat heb ik gebruikt](https://github.com/romyjkk/bloktech/blob/main/README.md#-wat-heb-ik-gebruikt-)
 - [How to install](https://github.com/romyjkk/bloktech/blob/main/README.md#how-to-install)
    - [Clonen](https://github.com/romyjkk/bloktech/blob/main/README.md#clonen)
    - [Node modules](https://github.com/romyjkk/bloktech/blob/main/README.md#node-modules)
