@@ -16,6 +16,10 @@ Table of contents
 
 ## 🎀 Mijn feature 🎀
 
+### 💡 Concept 💡
+
+### 🖥 Wat heb ik gebruikt 🖥
+
 
 ## 💻 How to install 💻
 
