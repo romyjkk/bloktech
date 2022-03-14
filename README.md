@@ -32,9 +32,12 @@ Ik heb er uiteindelijk voor gekozen om een feature te bouwen uit een app voor tw
 ### 📟 Clonen 📟
 Je kunt deze repository clonen door
 `git clone https://github.com/romyjkk/bloktech`
-In je command line te runnen.
+in je command line te runnen.
 
 ### 📂 Node modules 📂
+Installeer de verschillende Node Modules die ik heb gebruikt door
+`npm install`
+in je command line te runnen.
 
 ### 🗄 Database 🗄
 
