@@ -3,14 +3,14 @@ Welkom bij mijn Bloktech repository. Hier kun je alle code die ik heb gebruikt v
 
 Table of contents
 - [Mijn feature](https://github.com/romyjkk/bloktech/blob/main/README.md#mijn-feature)
-- How to install
-   - Clonen
-   - Node modules
-   - Database
-   - Run the application
-- Database
-- License
-- Sources used
+- [How to install](https://github.com/romyjkk/bloktech/blob/main/README.md#how-to-install)
+   - [Clonen](https://github.com/romyjkk/bloktech/blob/main/README.md#clonen)
+   - [Node modules](https://github.com/romyjkk/bloktech/blob/main/README.md#node-modules)
+   - [Database](https://github.com/romyjkk/bloktech/blob/main/README.md#database)
+   - [Run the application](https://github.com/romyjkk/bloktech/blob/main/README.md#run-the-application)
+- [Database](https://github.com/romyjkk/bloktech/blob/main/README.md#database-1)
+- [License](https://github.com/romyjkk/bloktech/blob/main/README.md#license)
+- [Sources used](https://github.com/romyjkk/bloktech/blob/main/README.md#license)
 
 ## Mijn feature
 
