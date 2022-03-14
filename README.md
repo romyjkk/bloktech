@@ -13,3 +13,19 @@ Table of contents
 - Sources used
 
 ## Mijn feature
+
+## How to install
+
+### Clonen
+
+### Node modules
+
+### Database
+
+### Run the application
+
+## Database
+
+## License
+
+## Sources used
