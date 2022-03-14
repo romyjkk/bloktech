@@ -1,8 +1,8 @@
 # bloktech
-This is my repository containing stuff from blok tech.
+Welkom bij mijn Bloktech repository. Hier kun je alle code die ik heb gebruikt voor deze opdracht terugvinden. Mijn research staat gedocumenteerd in mijn Wiki. Deze vindt je bovenaan bij het tabje 'Wiki'.
 
 Table of contents
-- My feature
+- [Mijn feature](## Mijn feature)
 - How to install
    - Clonen
    - Node modules
@@ -11,3 +11,5 @@ Table of contents
 - Database
 - License
 - Sources used
+
+## Mijn feature
