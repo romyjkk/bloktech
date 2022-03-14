@@ -1,4 +1,4 @@
-# bloktech
+# ✨ Bloktech ✨
 Welkom bij mijn Bloktech repository. Hier kun je alle code die ik heb gebruikt voor deze opdracht terugvinden. Mijn research staat gedocumenteerd in mijn Wiki. Deze vindt je bovenaan bij het tabje 'Wiki'.
 
 Table of contents
@@ -12,20 +12,20 @@ Table of contents
 - [License](https://github.com/romyjkk/bloktech/blob/main/README.md#license)
 - [Sources used](https://github.com/romyjkk/bloktech/blob/main/README.md#license)
 
-## Mijn feature
+## 🎀 Mijn feature 🎀
 
-## How to install
+## 💻 How to install 💻
 
-### Clonen
+### 📟 Clonen 📟
 
-### Node modules
+### 📂 Node modules 📂
 
-### Database
+### 🗄 Database 🗄
 
-### Run the application
+### ⌨️ Run the application ⌨️
 
-## Database
+## 🗄 Database 🗄
 
-## License
+## 📄 License 📄
 
-## Sources used
+## 📚 Sources used 📚
