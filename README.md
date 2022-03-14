@@ -46,5 +46,6 @@ in je command line te runnen.
 ## 🗄 Database 🗄
 
 ## 📄 License 📄
+Voor dit project heb ik de [MIT license](https://github.com/romyjkk/bloktech/blob/main/LICENSE.txt) gebruikt.
 
 ## 📚 Sources used 📚
