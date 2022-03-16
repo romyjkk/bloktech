@@ -50,3 +50,4 @@ In dit project heb ik gebruik gemaakt van de MongoDB database.
 Voor dit project heb ik de [MIT license](https://github.com/romyjkk/bloktech/blob/main/LICENSE.txt) gebruikt.
 
 ## 📚 Sources used 📚
+Voor dit project heb ik vooral gebruik gemaakt van de artikels en andere resources die ik in de blok-tech repository kon vinden.
