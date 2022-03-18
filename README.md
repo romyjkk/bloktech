@@ -42,6 +42,7 @@ in je command line te runnen.
 ### 🗄 Database 🗄
 
 ### ⌨️ Run the application ⌨️
+Je kunt de applicatie started door `nodemon index.js` in de terminal te runnen.
 
 ## 🗄 Database 🗄
 In dit project heb ik gebruik gemaakt van de MongoDB database.
