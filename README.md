@@ -45,7 +45,7 @@ in je command line te runnen.
 Je kunt de applicatie started door `nodemon index.js` in de terminal te runnen.
 
 ## 🗄 Database 🗄
-In dit project heb ik gebruik gemaakt van de MongoDB database.
+In dit project heb ik gebruik gemaakt van de [MongoDB}(https://www.mongodb.com/) database.
 
 ## 📄 License 📄
 Voor dit project heb ik de [MIT license](https://github.com/romyjkk/bloktech/blob/main/LICENSE.txt) gebruikt.
