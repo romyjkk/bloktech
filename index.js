@@ -32,13 +32,23 @@ run()
 
 async function run() {
     try {
+        // const user = await User.findOne({
+        //     price: "5"
+        // })
+        // const user = await User.find().byName("Shirt")
         const user = await User.create({
             name: "Shirt",
             price: 5
         })
 
+        // const user = await User.create({ //another 'user'?
+        //     name: "Pants",
+        //     price: 10
+        // })
+
         console.log(user)
-        user.sayHi()
+        // console.log(user.namedPrice)
+        // user.sayHi()
     } catch (e) { //catching the error and sending a message
         console.log(e.message)
     }
