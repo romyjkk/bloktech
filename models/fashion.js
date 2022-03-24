@@ -5,6 +5,7 @@ const mongoose = require("mongoose")
 const fashionSwipe = new mongoose.Schema({
     name: String,
     price: Number,
+    new: Boolean
 })
 
 // must use a function (not arrow)

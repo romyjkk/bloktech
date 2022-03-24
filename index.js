@@ -8,15 +8,18 @@ const {
 } = require('express-handlebars')
 
 // database opzetten
-
 const mongoose = require('mongoose')
 const dbKey = process.env.MONGO_URI
 
-mongoose.connect(dbKey, {
-        useNewURLParser: true
-    })
-    .then(() => console.log('Database is connected!'))
-    .catch(err => console.log(err))
+const connectDb = require('./controllers/connect.js')
+
+connectDb()
+
+// mongoose.connect(dbKey, {
+//         useNewURLParser: true
+//     })
+//     .then(() => console.log('Database is connected!'))
+//     .catch(err => console.log(err))
 
 app.use(express.urlencoded({
     extended: false
@@ -38,7 +41,8 @@ async function run() {
         // const user = await User.find().byName("Shirt")
         const user = await User.create({
             name: "Shirt",
-            price: 5
+            price: 5,
+            new: true
         })
 
         // const user = await User.create({ //another 'user'?
