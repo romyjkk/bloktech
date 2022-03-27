@@ -15,10 +15,15 @@
 
         <ul>
             <li>
-                <h2>Shirt</h2>
+                <h2>{{#with fashion}}
+                    {{this.name}}
+                    {{/with}}
+                </h2>
             </li>
             <li>
-                <h3>$15</h3>
+                <h3>{{#with fashion}}
+                    {{this.price}}
+                    {{/with}}</h3>
             </li>
         </ul>
 
@@ -32,15 +37,4 @@
 
 </main>
 
-<footer>
-
-    <nav>
-        <ul>
-            <li><button src=""><i class="fa-solid fa-house-chimney"></i></button></li>
-            <li><button src=""><i class="fa-solid fa-magnifying-glass"></i></button></li>
-            <li><button src=""><i class="fa-solid fa-heart"></i></button></li>
-            <li><button src=""><i class="fa-solid fa-user"></i></button></li>
-        </ul>
-    </nav>
-
-</footer>
+{{> footer}}

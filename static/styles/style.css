@@ -1,10 +1,10 @@
 /* algemeen */
 
 @font-face {
-	font-family: montserrat;
-	src: url(../fonts/Montserrat-Regular.ttf);
-	
-	font-weight: normal;
+    font-family: montserrat;
+    src: url(../fonts/Montserrat-Regular.ttf);
+
+    font-weight: normal;
     font-style: normal;
 }
 
@@ -139,7 +139,7 @@ footer {
 
     border-radius: 20px;
 
-    height: 20em;
+    height: 5em;
 
     margin: 2em 0 0 0;
 

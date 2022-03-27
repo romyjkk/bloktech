@@ -27,42 +27,54 @@ app.use(express.urlencoded({
 
 // nog meer database
 
-// https://www.youtube.com/watch?v=DZBGEVgL2eE
+
 
 const User = require("./models/fashion")
+const fashion = require('./models/fashion')
 
-run()
+// async function getFashion() {
+//     try {
+//         const fashion = await fashion.find({
+//             "identifier": identifier
+//         }).lean()
 
-async function run() {
-    try {
-        // const user = await User.findOne({
-        //     price: "5"
-        // })
-        // const user = await User.find().byName("Shirt")
-        const user = await User.create({
-            name: "Shirt",
-            price: 5,
-            new: true
-        })
+//     }
+// }
 
-        // const user = await User.create({ //another 'user'?
-        //     name: "Pants",
-        //     price: 10
-        // })
+// https://www.youtube.com/watch?v=DZBGEVgL2eE
 
-        console.log(user)
-        // console.log(user.namedPrice)
-        // user.sayHi()
-    } catch (e) { //catching the error and sending a message
-        console.log(e.message)
-    }
-}
+// run()
+
+// async function run() {
+//     try {
+//         const user = await User.findOne({
+//             price: "5"
+//         })
+//         const user = await User.find().byName("Shirt")
+//         // const user = await User.create({
+//         //     name: "Shirt",
+//         //     price: 5,
+//         //     new: true
+//     })
+
+//         // const user = await User.create({ //another 'user'?
+//         //     name: "Pants",
+//         //     price: 10
+//         // })
+
+//         console.log(user)
+//         // console.log(user.namedPrice)
+//         // user.sayHi()
+//     } catch (e) { //catching the error and sending a message
+//         console.log(e.message)
+//     }
+// }
 
 // defining port
 
 const PORT = 3000
 
-// setting up view engine
+// setting up handlebars
 
 app.engine('handlebars', engine())
 app.set('view engine', 'handlebars')
@@ -87,8 +99,18 @@ app.get('/like', (req, res) => {
     res.render('like')
 })
 
+app.get('/dislike', (req, res) => {
+    res.render('dislike')
+})
+
 app.post('/likeUser', (req, res) => {
     // req.body
+})
+
+// error
+
+app.use((req, res) => {
+    res.status(404).send("This page doesn't exist!")
 })
 
 
